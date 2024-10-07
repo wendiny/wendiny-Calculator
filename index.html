@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    
+        <input type="text" id="screen" >
+    <div class="clavier">
+        <div  class="btmPosition ">
+            <input type="button" value='AC' onclick="Clear()" id="clear" class="btn acColor">
+            <input type="button" value='←' onclick="Back()" id="backspace" class="btn acColor">
+            <input type="button" value='%' onclick="Solve('%')" class="btn acColor">
+            <input type="button" value='/' onclick="Solve('/')" class="btn operatorColor">
+            <input type="button" value='7' onclick="Solve('7')" class="btn">
+            <input type="button" value='8' onclick="Solve('8')" class="btn">
+            <input type="button" value='9' onclick="Solve('9')" class="btn">
+
+            <input type="button" value='x' onclick="Solve('*')" class="btn operatorColor">
+            <input type="button" value='4' onclick="Solve('4')" class="btn">
+            <input type="button" value='5' onclick="Solve('5')" class="btn">
+            <input type="button" value='6' onclick="Solve('6')" class="btn">
+
+            <input type="button" value='-' onclick="Solve('-')" class="btn operatorColor">
+            <input type="button" value='1' onclick="Solve('1')" class="btn">
+            <input type="button" value='2' onclick="Solve('2')" class="btn">
+            <input type="button" value='3' onclick="Solve('3')" class="btn">
+            <input type="button" value='+' onclick="Solve('+')" class="btn operatorColor">
+            <input type="button" value="0" onclick="Solve('0')" class="buttonPostion0 ">
+        
+            <input type="button" value='.' onclick="Solve('.')" class="btn">
+            <input type="button" value='=' onclick="Result()" class="btn operatorColor">
+        </div>
+    </div> 
+    <footer>😃Wendiny🖩Calculator😃</footer>     
+    </div>
+<script src="./index.js"></script>
+
+</body>
+</html>
